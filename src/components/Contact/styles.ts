@@ -19,32 +19,34 @@ export const Container = styled.section`
   .contacts{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     gap: 2rem;
     place-items: center;
     margin-top: 8rem;
-    div{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 50%;
-      max-width: 40rem;
-      gap: 2rem;
-      background-color: var(--green);
-      border-radius: 1.4rem;
-      padding: 1.6rem 2.8rem;
-      transition: background-color 0.25s;
-      img{
-        width: 4rem;
-      }
-      a{
-        color: var(--black);
-        font-weight: 500;
-      }
+    .link-tag{
+      color: var(--black);
+      font-weight: 500;
+      color: #000;
       &:hover{
-        background-color: var(--pink);
-        a{
           color: #FFF;
+      }
+      width: 100%;
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+        background-color: var(--green);
+        border-radius: 1.4rem;
+        padding: 1.6rem 2.8rem;
+        transition: background-color 0.25s;
+        img{
+          width: 4rem;
+        }
+        
+        &:hover{
+          background-color: var(--pink);
         }
       }
     }
@@ -54,7 +56,7 @@ export const Container = styled.section`
   @media(max-width: 960px){
     .contacts{
       flex-direction: column;
-      div{
+      .link-tag{
         width: 100%;
         flex-direction: column;
       }

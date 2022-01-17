@@ -1,28 +1,38 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
-import { Form } from "../Form/Form";
+import telegramIcon from "../../assets/telegram.png"
 
 
-export function Contact(){
+export function Contact() {
 
-  return(
+  return (
     <Container id="contact">
       <header>
         <h2>Contact me</h2>
         <p>If you have seen my potential or want to talk to me, feel free to send me a message</p>
       </header>
       <div className="contacts">
-        <div>
-          <img src={emailIcon} alt="Email" />
-          <a href="mailto:ahrorsulaymanov2@gmail.com">ahrorsulaymanov2@gmail.com</a>
-        </div>
-        <div>
-          <img src={phoneIcon} alt="Email" />
-          <a href="tel:+998930085504">(93) 008-55-04</a>
-        </div>  
+        <a className="link-tag" target="_blank" href="mailto:ahrorsulaymanov2@gmail.com">
+          <div>
+            <img src={emailIcon} alt="Email" />
+            <span>ahrorsulaymanov2@gmail.com</span>
+          </div>
+        </a>
+        <a className="link-tag" target="_blank" href="tel:+998930085504">
+          <div>
+            <img src={phoneIcon} alt="Email" />
+            <span>(93) 008-55-04</span>
+          </div>
+        </a>
+
+        <a className="link-tag" target="_blank" href="https://t.me/sulaymanov_a">
+          <div>
+            <img src={telegramIcon} alt="Email" />
+            <span>Ahror Sulaymanov</span>
+          </div>
+        </a>
       </div>
-      <Form></Form>
     </Container>
   )
 }
