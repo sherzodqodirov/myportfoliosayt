@@ -10,24 +10,24 @@ export function Hero(){
         <ScrollAnimation animateIn="fadeInUp">
           <p>Hi 👋</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={100}>
           <h1 style={{fontSize:"50px"}}>Ahror Sulaymanov</h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={120}>
           <h3>Front end developer</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={130}>
           <p className="small-resume">I am a web development technician using JavaScript</p>
         </ScrollAnimation>
 
-          <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
+          <ScrollAnimation animateIn="fadeInUp" delay={150}>
             <BrowserRouter>
               <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
             </BrowserRouter>
           </ScrollAnimation>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1*1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0}>
           <img src={Illustration} alt="Ilustração"/>
         </ScrollAnimation>
       </div>
