@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: #2b2b2b;
-  padding: 3rem 15rem;
+  padding: 0.5rem 15rem;
   margin-top: 15rem;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ export const Container = styled.footer`
 
 
   .logo{
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
   p{
