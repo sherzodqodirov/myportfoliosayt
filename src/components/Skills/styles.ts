@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 12rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
   .skill-shape{
     width: 100%;
@@ -14,7 +14,7 @@ export const Container = styled.section`
       height: 20.5px;
       background-color: #23C868;
       div{
-        width: 90px;
+        width: 110px;
         height: 20.5px;
         background-color: #00994d;
         padding: 0px 10px;

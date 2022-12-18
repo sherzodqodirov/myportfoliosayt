@@ -1,30 +1,462 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import intalim from '../../assets/intalim.png'
-import bianchi from '../../assets/bianchi.png'
-import tian from '../../assets/tian.png'
-import infotian from '../../assets/info-tian.png'
-import process from '../../assets/process.png'
-import reseption from '../../assets/reseption.png'
-import shop from '../../assets/shop.png'
+import carapp from "../../assets/projectimg/carrapp.png";
+import gameshop from "../../assets/projectimg/gameshop.png";
+import appzadach from "../../assets/projectimg/appzadach.png";
+import asakabank from "../../assets/projectimg/asakabank.png";
+import blogapp from "../../assets/projectimg/blogapp.png";
+import countrapp from "../../assets/projectimg/countrapp.png";
+import crudlaptop from "../../assets/projectimg/crudlaptop.png";
+import fullapp from "../../assets/projectimg/fullapp.png";
+import gifapp from "../../assets/projectimg/gifapp.png";
+import jsgamesonnitop from "../../assets/projectimg/jsgamesonnitop.png";
+import maxwayapp from "../../assets/projectimg/maxwayapp.png";
+import onlinechatapp from "../../assets/projectimg/onlinechatapp.png";
+import personalweb from "../../assets/projectimg/personalweb.png";
+import photogall from "../../assets/projectimg/photogall.png";
+import pumaweb from "../../assets/projectimg/pumaweb.png";
+import shopapp from "../../assets/projectimg/shopapp.png";
+import signgoogleproduct from "../../assets/projectimg/signgoogleproduct.png";
+import tavakalgamejs from "../../assets/projectimg/tavakalgamejs.png";
+import weatherapp from "../../assets/projectimg/weatherapp.png";
+import x0game from "../../assets/projectimg/x0game.png";
 
 export function Portfolio() {
+  const heandleclick = () => {
+    alert("bu proektni korish uchin menga murojat qiling");
+  };
   return (
     <Container id="portfolio">
       <h2>My portfolio</h2>
 
       <div className="projects">
 
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://intalim.uz/'>
-            <div className="project">
+        <ScrollAnimation animateIn="flipInX" >
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
               <div className="body">
-                <img src={intalim} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>InTalim</h3>
-                <p>This system is a driving school system. This platform is a great convenience for school administration and for school students. I was involved in the preparation of the front end part of this platform</p>
+                <img
+                  src={carapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Avtosalon + (admin panel)</h3>
+                <p>
+                I created this site for my portfolio.
+                </p>
               </div>
               <footer>
-              <ul className="tech-list">
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>React js</li>
+                  <li>Redux(Redux-toolkit)</li>
+                </ul>
+              </footer>
+            </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={gameshop}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Game store + (admin panel)</h3>
+                <p>
+                I created this site for my portfolio.
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>React js</li>
+                  <li>Redux(Redux-toolkit)</li>
+                </ul>
+              </footer>
+            </div>
+        </ScrollAnimation>
+
+
+        <ScrollAnimation animateIn="flipInX">
+         
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={asakabank}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Asakabank</h3>
+                <p>
+                 
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>React js</li>
+                </ul>
+              </footer>
+            </div>
+       
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={blogapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Blog add photo</h3>
+                <p></p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>Firebase</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={countrapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Countr info</h3>
+                <p>
+                  
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={crudlaptop}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Laptop crud</h3>
+                <p>
+
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={fullapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Online Shop</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>Redux</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={gifapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Gif app</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+      <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={jsgamesonnitop}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Random number</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={maxwayapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Maxway </h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={onlinechatapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Online Chat</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>React js</li>
+                  <li>Firebase</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+        
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={personalweb}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Website</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={photogall}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Photo Gallery</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>Redux</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={pumaweb}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Puma site</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={shopapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Online Shop</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Semantic</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>Redux</li>
+                </ul>
+              </footer>
+            </div>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={signgoogleproduct}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Sign in Firebase</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
                   <li>Html</li>
                   <li>Css</li>
                   <li>Sass</li>
@@ -33,195 +465,120 @@ export function Portfolio() {
                 </ul>
                 <ul className="tech-list">
                   <li>JavaScript</li>
-                  <li>React js</li>
+                  <li>Next js</li>
                   <li>Redux</li>
                 </ul>
               </footer>
             </div>
-          </a>
+            
         </ScrollAnimation>
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://clinic.proacademy.uz/'>
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://clinic.proacademy.uz/" target="_blank" rel="noreferrer">
-                  <img src={externalLinkIcon} alt="Visitar site" />
-                </a>
+       
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={tavakalgamejs}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Game JS</h3>
+                <p>I created this site for my portfolio.</p>
               </div>
-            </header>
-            <div className="body">
-              <a style={{ color: "#fff" }} href="https://clinic.proacademy.uz/" target="_blank" rel="noreferrer">
-                <h3>Legal Clinic</h3>
-              </a>
-              <p>This system allows people to get legal advice for free and online. I was involved in the preparation of the front end part of this site.</p>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-                <li>Antd design</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>React js</li>
-                <li>Redux</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
-        </ScrollAnimation> */}
-
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://tian.uz/'>
-          <div className="project">
-            <div className="body">
-              <img src={tian} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Tian</h3>
-              <p>This site helps to find a house, apartment, office. I was involved in the frontend of this site</p>
-            </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Bootstrap</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>React js</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
+            
         </ScrollAnimation>
-        
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://info.tian.uz'>
-          <div className="project">
-            <div className="body">
-              <img src={infotian} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Info tian uz</h3>
-              <p>This site helps to find a house, apartment, office. I was involved in the frontend of this site</p>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={weatherapp}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Weather app</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>Redux(Redux-toolkit)</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
+            
+        </ScrollAnimation>
+
+       <ScrollAnimation animateIn="flipInX">
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={x0game}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>x-0 game Js</h3>
+                <p>I created this site for my portfolio.</p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                </ul>
+              </footer>
+            </div>
+           
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://theprocess.uz/'>
-          <div className="project">
-            <div className="body">
-              <img src={process} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Process uz</h3>
-              <p>Process LLC is a worldwide operating trading company in nuts, pulses and dried fruit and a supplier to many well known buyers.</p>
+            <div className="project" onClick={heandleclick} style={{cursor:"pointer"}}>
+              <div className="body">
+                <img
+                  src={appzadach}
+                  style={{ width: "100%", borderRadius: "8px" }}
+                  alt=""
+                />
+                <h3>Worktable</h3>
+                <p>
+                 
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul className="tech-list">
+                  <li>JavaScript</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>React js</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
         </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://bianchiwater.uz'>
-          <div className="project">
-            <div className="body">
-                <img src={bianchi} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Bianchi water</h3>
-              <p>This site is for a water filter installation company.</p>
-            </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>JQuery</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='http://reception.tsul.uz/login'>
-          <div className="project">
-            <div className="body">
-            <img src={reseption} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Reseption TSUL</h3>
-              <p>This system is designed for the reception of the Tashkent State University of Law . I was involved in the preparation of the front of this site.</p>
-            </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-                <li>Antd design</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>React js</li>
-                <li>Redux</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <a target='_blank' href='https://online-shop-next-silk.vercel.app/'>
-          <div className="project">
-            <div className="body">
-            <img src={shop} style={{width:"100%", borderRadius:"8px"}} alt="" />
-                <h3>Online Shop</h3>
-              <p>I created this site for my portfolio.</p>
-            </div>
-            <footer>
-            <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-                <li>Antd design</li>
-              </ul>
-              <ul className="tech-list">
-                <li>JavaScript</li>
-                <li>Next js</li>
-                <li>Redux</li>
-              </ul>
-            </footer>
-          </div>
-          </a>
-        </ScrollAnimation>
-
       </div>
     </Container>
   );

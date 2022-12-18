@@ -11,7 +11,7 @@ export function Hero(){
           <p>Hi 👋</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={100}>
-          <h1 style={{fontSize:"50px"}}>Ahror Sulaymanov</h1>
+          <h1 style={{fontSize:"50px"}}>Sherzod Qodirov</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={120}>
           <h3>Front end developer</h3>
